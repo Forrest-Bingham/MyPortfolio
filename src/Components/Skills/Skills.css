@@ -1,0 +1,57 @@
+.Main{
+    display:flex;
+    border: 1px solid black;
+    width: 100%;
+
+}
+.SkillsSection{
+    width:33%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.List{
+    width: 66%;
+    border: 1px solid red;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.FrontEnd{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.BackEnd{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.Titles{
+    text-decoration: underline;
+    display:flex;
+    justify-content: flex-start;
+}
+.FrontEndList{
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    margin: 0;
+}
+.Fundamentals{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 4%;
+    
+}
+.icon{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-right: 5%;
+    
+}
