@@ -1,27 +1,27 @@
 .Main{
     display:flex;
-    border: 1px solid black;
     width: 100%;
 
 }
-.SkillsSection{
+/* .SkillsSection{
     width:33%;
     display:flex;
     align-items: center;
     justify-content: center;
-}
+} */
 .List{
-    width: 66%;
-    border: 1px solid red;
+    width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 .FrontEnd{
+    padding-top: 3%;
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
     height: 60vh;
+    border-bottom: 5px solid #4abc76;
 }
 
 .BackEnd{
@@ -32,7 +32,8 @@
 .Titles{
     text-decoration: underline;
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
+    color: #4abc76;
 }
 .FrontEndList{
     display:flex;
@@ -42,10 +43,21 @@
 }
 .Fundamentals{
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 4%;
-    
+    padding-bottom: 2%;
+}
+.Libraries{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.Backend{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
 }
 .icon{
     display:flex;
@@ -53,5 +65,29 @@
     align-items: center;
     font-size: 1.3rem;
     margin-right: 5%;
-    
+}
+.icon:hover{
+    /* background-color:#4abc76; */
+    transform: translateY(-8px);
+}
+.sqlLogo{
+    height: 26.25px;
+    width: 40px;
+}
+.logo{
+    height: 26.25px;
+    width: 26.25px;
+    color: rgb(0, 123, 255);
+}
+.links{
+    display:flex;
+    justify-content: center;
+    padding: 0 3%;
+}
+
+.link{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%;
 }

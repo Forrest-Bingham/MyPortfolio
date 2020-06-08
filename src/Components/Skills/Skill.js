@@ -8,7 +8,7 @@ const Skills = () => {
     return(
         <div className="Main">
         <div className="SkillsSection">
-        <h1>Skills</h1>   
+        {/* <h1>Skills</h1>    */}
         </div>
         <List/>
         </div>
