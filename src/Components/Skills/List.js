@@ -1,5 +1,5 @@
 import React from "react";
-
+import Connect from "./Connect";
 import FrontEnd from "./FrontEnd";
 const List = () => {
 
@@ -7,12 +7,10 @@ const List = () => {
         <div className="List">
         
         <div className="FrontEnd">
-        <h2 className="Titles">Front End</h2>
+        <h1 className="Titles">Skills</h1> 
         <FrontEnd/>
         </div>   
-        <div className="BackEnd">
-        <h2 className="Titles">Back End</h2>
-        </div>
+        <Connect/>
         </div>
     )
 }
