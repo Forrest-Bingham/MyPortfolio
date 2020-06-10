@@ -1,0 +1,11 @@
+.mainIntro{
+    display:flex;
+    padding-top: 10%;
+}
+.title{
+    width: 30%;
+
+}
+.background{
+    width:70%;
+}

@@ -4,21 +4,19 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Navigation from "./Components/Navbar/Navigation";
 import Intro from "./Components/Intro/Intro";
 import Skills from "./Components/Skills/Skill"
+import AboutMe from "./Components/AboutMe/AboutMe";
+import MyProjects from "./Components/Projects/MyProjects";
 //import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-          <Navigation/>
-      </header>
-      <div className="Intro">
-        <Intro/>
-      </div>
-      <div className="Skills">
-        <Skills/>
-      </div>
+      <Route exact path="/" component={Navigation}/>
+      <Route exact path="/" component={Intro}/>
+      <Route exact path="/" component={Skills}/>
+      <Route exact path="/about" component={AboutMe}/>
+      <Route exact path="/projects" component={MyProjects}/>
     </div>
   );
 }
