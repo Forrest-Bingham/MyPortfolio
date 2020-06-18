@@ -14,7 +14,11 @@ const AboutMe = () => {
                 <h2>My Background:</h2>
             </div>  
             <div className="background">
-                <h3>This is where I started</h3>
+                <p className="wordsBackground">I am a full stack web developer from Orem, Utah. </p>
+                <p>I recently graduated from Lambda School, which is a 9+ month online CS 
+                    and Software Engineering Academy </p>
+                <p> providing an immersive hands-on curriculum with a focus on computer science,
+                     software engineering, and web development. </p>
             </div>
         </div>
         </div>
