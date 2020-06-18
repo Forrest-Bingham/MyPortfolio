@@ -133,37 +133,28 @@ const MyProjects = () => {
 
         <div className="project">
             <div className="projectName">
-                <p className="name">Angel City Sports</p>
-                <img src={AngelCity} alt="Angel City Sports" className="projectImage"/>
+                <p className="name">NBA Career Predictor</p>
+                <img src={Nba} alt="Nba Career Predictor" className="projectImage"/>
             </div>
             <div className="projectDescription">
                 <div className="projectAchievements">
-                    <p className="role">Full Stack Web Developer</p>   
-                    <p className="appDescription">An app designed for increased participation and communication for Special Olympic events. 
-                Completed 2 release canvases during an 8 week time period. 
-                Team consisted of 6 Full Stack Web Developers.</p>
+                    <p className="role">Front End Developer</p>   
+                    <p className="appDescription">An app designed to calculate the career longevity of any current player and compare 
+                    them to a past NBA player. Team consisted of 3 Front End Developers.</p>
                     <ul className="accomplishments">
-                        <li>Took initiative to self-teach GraphQL, Prisma, and Apollo.</li>
-                        <li>Created back-end data models for Users, Activities, and Events using GraphQL</li>
-                        <li>Built front-end functionality for signing up for Activities</li>
-                        <li>Created back-end testing using Jest.</li>
-                        <li>Enabled keyboard accessibility for signing up for activities.</li>
+                        <li>Created login and searchbar components with React.</li>
+                        <li>Managed state with React Hooks and Redux</li>
+                        <li>Components styled with CSS.</li>
                     </ul>
                 </div>
             <div className="github">
                 <p className="techStack">Tech Stack:</p>
-                <p className="tech">GraphQL | Prisma | Apollo</p>
+                <p className="tech">React | Redux </p>
                 <h4>Check out the code on Github </h4>
                 <div className="githubLinks">
                     <div className="link1">
-                        <a href="https://github.com/Lambda-School-Labs/AdaptivApps-fe" rel="noopener noreferrer" target="_blank" className="link">
+                        <a href="https://github.com/Build-NBA-Career-Longevity-Predictor/front-end" rel="noopener noreferrer" target="_blank" className="link">
                             <p>Front-End</p>
-                        </a>
-                        <FaGithub/>
-                    </div>
-                    <div className="link2">
-                        <a href="https://github.com/Lambda-School-Labs/AdaptivApps-be" rel="noopener noreferrer" target="_blank" className="link">
-                            <p>Back-End</p>  
                         </a>
                         <FaGithub/>
                     </div>
