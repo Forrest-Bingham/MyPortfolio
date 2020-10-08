@@ -1,22 +1,45 @@
+.mainAbout{
+    width: 100%;
+}
+
 .mainIntro{
     display:flex;
     flex-direction: column;
-    padding-top: 5%;
+    padding: 2% 20% 0 20%;
+    height: 62vh;
 }
+
 .title{
-    width: 100%;
+    /* width: 100%; */
     display:flex;
     justify-content: flex-start;
-    padding: 0 20%;
+    padding: 0 0%;
+    padding-bottom: 1%;
 }
 .background{
     width:100%;
     display:flex;
-    padding: 0 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1% 0%;
+    overflow-wrap: break-word;
+    word-wrap: normal;
+    font-size: 1.1rem;
+}
+.background2{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1% 0%;
+    overflow-wrap: break-word;
+    word-wrap: normal;
+    font-size: 1.1rem;
 }
 .wordsBackground{
-    /* display:flex;
-    flex-direction: column;
-    justify-content: flex-start; */
-   
+    width: 90%;
+    display:flex;
+    justify-content: flex-start;
+    margin: 0;
+    
 }
