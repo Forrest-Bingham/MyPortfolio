@@ -7,7 +7,7 @@ import {IconContext} from "react-icons";
 const Connect = () => {
 
     return (
-        <IconContext.Provider value={{ style: {color: "#4abc76", height: "60px", width: "60px" }}}> 
+        <IconContext.Provider value={{ style: {color: "#00818a", height: "60px", width: "60px" }}}> 
         <div className="connect">
             <h3> CONNECT WITH ME</h3>
             <div className="links">

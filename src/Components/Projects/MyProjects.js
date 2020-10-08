@@ -7,12 +7,13 @@ import FarmFresh from "./Images/FarmFresh.PNG";
 import SleepTracker from "./Images/SleepTracker.PNG";
 import Nba from "./Images/Nba.PNG";
 import "./Projects.css";
+import Connect from "../Skills/Connect";
 
 const MyProjects = () => {
 
     return (
         <div className="projectsMain">
-        <IconContext.Provider value={{ style: {color: "#4abc76", height: "25px", width: "25px" }}}> 
+        <IconContext.Provider value={{ style: {color: "#00818a", height: "25px", width: "25px" }}}> 
         <Navigation/>
         <h4>This is my Projects page</h4>   
         <div className="project">
@@ -163,6 +164,7 @@ const MyProjects = () => {
         </div>
         </div>
         </IconContext.Provider>
+        <Connect/>
         </div>
     )
 }

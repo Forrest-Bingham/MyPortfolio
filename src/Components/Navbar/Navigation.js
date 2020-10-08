@@ -13,7 +13,7 @@ const Navigation = () => {
     return(
         <div className="navbar">
         <div className="Icon">
-        <h1>Icon goes here</h1>
+        <h1>Forrest Bingham</h1>
         </div>
         <div className="Links">
         <Home/>
