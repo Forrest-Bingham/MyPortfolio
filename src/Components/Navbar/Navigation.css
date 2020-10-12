@@ -1,6 +1,6 @@
 .navbar{
     background-color: #404b69;
-    max-height: 8vh;
+    max-height: 10vh;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -25,6 +25,7 @@
     color: white;
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
+    
 }
 .Link:hover {
     color: rgb(118, 74, 188);

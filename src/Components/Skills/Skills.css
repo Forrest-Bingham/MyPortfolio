@@ -16,11 +16,10 @@
     justify-content: flex-start;
 }
 .FrontEnd{
-    padding-top: 3%;
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
-    height: 60vh;
+    height: 100vh;
     border-bottom: 5px solid #404b69;
 }
 
