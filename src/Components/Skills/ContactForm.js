@@ -19,8 +19,8 @@ const ContactForm = () => {
         <div className="formSpace">
 
             <h2>Contact Me</h2>
-            <div className="form">
-            <form onSubmit={handleSubmit}>
+            <div>
+            <form onSubmit={handleSubmit} className="form">
                 <input
                     className="sendername"
                     type="text"
@@ -41,13 +41,16 @@ const ContactForm = () => {
 
                 <input
                     className="message"
-                    type="text"
+                    type="textarea"
                     name="message"
                     value={message}
                     placeholder="Message"
                     onChange={e => setMessage(e.target.value)}
                 />
+
+                <button type="submit" className="submit">Send Message</button>
             </form>
+            
             </div>
         </div>
     )
