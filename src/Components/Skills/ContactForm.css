@@ -1,41 +1,62 @@
 .formSpace{
     display:flex;
+    height: 101vh;
     flex-direction: column;
     background: white;
-    padding-top: 5%;
+    padding-top: 1.5%;
+    background-image: url("./images/email-pattern.png");
+    background-size: contain;
 }
 
 .form{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display:flex;
     flex-direction: column;
     align-items: center;
 
 }
 .sendername{
-    width: 60%;
-    margin-top: 8%;
-    font-size: 1.8rem;
+    width: 40%;
+    margin-top: 4%;
+    font-size: 1.6rem;
     box-shadow: 5px 10px 15px #3fafd4;
     border: none;
+    font-family: "Lucida Console", Courier, monospace;
 }
-.sendername:focus{
+.sendername:select{
     border: #3fafd4;
 }
 .email{
-    width: 60%;
+    width: 40%;
     margin-top: 4%;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     box-shadow: 5px 10px 15px #3fafd4;
     border: none;
+    font-family: "Lucida Console", Courier, monospace;
 }
 
 .message{
-    width: 60%;
+    width: 40%;
     margin-top: 4%;
-    padding-bottom: 20%;
-    font-size: 1.8rem;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    font-size: 1.6rem;
     box-shadow: 5px 10px 15px #3fafd4;
     border: none;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.submit{
+    font-family: "Lucida Console", Courier, monospace;
+    width: 40%;
+    height: 40px;
+    border-radius: 25px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.submit:focus{
+    outline:none;
+    border-radius: 25px;
 }
