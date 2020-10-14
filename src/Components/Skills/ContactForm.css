@@ -52,6 +52,7 @@
     width: 40%;
     height: 40px;
     border-radius: 25px;
+    box-shadow: 5px 10px 15px #3fafd4;
 }
 .submit:hover{
     cursor: pointer;
@@ -60,3 +61,25 @@
     outline:none;
     border-radius: 25px;
 }
+
+#snackbar{
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color:#3fafd4;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  padding: 16px;
+  position: fixed;
+  z-index: 3;
+  left: 15%;
+  top: 30px;
+  font-size: 1.2rem;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
