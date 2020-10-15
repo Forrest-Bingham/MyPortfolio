@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./Intro.css";
 import FrontEnd from "../Skills/FrontEnd"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Intro = () => {
 
@@ -10,16 +11,15 @@ const Intro = () => {
                 <h1 className="Name">Forrest Bingham</h1>
                 <h1 className="Title">Full-Stack Web Developer</h1>
                 <FrontEnd/>
-            </div>
-            <div className="bgIMG">
-                <div className="hidden">
-                    <p className="Hello">Hello World</p>
+                <div className="introButton">
+                    <Link to="/projects">
+                    <button className="introBtn">Check out my Portfolio</button>
+                    </Link>
                 </div>
             </div>
-                
+            <div className="bgIMG"/>
+                 
             
-            
-
         </div>
     )
 }

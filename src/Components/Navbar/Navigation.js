@@ -12,9 +12,9 @@ const Navigation = () => {
 
     return(
         <div className="navbar">
-        <div className="Icon">
+        {/* <div className="Icon">
         <h1>Forrest Bingham</h1>
-        </div>
+        </div> */}
         <div className="Links">
         <Home/>
         <About/>
