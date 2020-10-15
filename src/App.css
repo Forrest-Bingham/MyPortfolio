@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
-  /* font-family: 'Rubik', sans-serif; */
+  font-family: "Helvetica", Courier, monospace;
   background-color: #dbedf3;
   /* background-color: white; */
 }

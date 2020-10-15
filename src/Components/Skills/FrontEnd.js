@@ -18,7 +18,7 @@ const FrontEnd = () => {
 
     return (
         // <IconContext.Provider value={{ style: {fontSize: '30px', color: "rgb(0, 123, 255)", }}}>
-        <IconContext.Provider value={{ style: {fontSize: '30px', color: "rgb(0, 129, 138)", }}}> 
+        <IconContext.Provider value={{ style: {fontSize: '30px', color: "#66fcf1", }}}> 
         <div className="FrontEndList">
         <div className="Fundamentals">
             <div className="icon">
