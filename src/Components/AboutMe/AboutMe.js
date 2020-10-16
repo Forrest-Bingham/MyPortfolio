@@ -2,7 +2,7 @@ import React from "react";
 
 import Navigation from "../Navbar/Navigation.js";
 import Connect from "../Skills/Connect";
-
+import ProfilePic from "./ProfilePic";
 import "./AboutMe.css";
 import "../Skills/Skills.css"
 
@@ -12,6 +12,9 @@ const AboutMe = () => {
         <div className="mainAbout">
         <Navigation/>
         <div className="mainIntro">
+            <div className="profilepic">
+                <ProfilePic/>
+            </div>
             <div className="title">
                 <h2>My Background:</h2>
             </div>  
@@ -30,14 +33,14 @@ const AboutMe = () => {
                 <p className="wordsBackground">because there is always something new to learn.</p>
             </div>
 
-            <div className="background2">
-                {/* <p className="wordsBackground">In April 2019, I found myself with no degree, and was just let go of my job. After trying to come up with a plan, </p> 
-                <p className="wordsBackground">my father asked me "If you could be good at one thing, what would it be?"</p> 
-                <p className="wordsBackground">Instead of being sad about my situation, I realized it was a new opportunity for me</p>
-                <p className="wordsBackground">to start doing what I love to do. My favorite class in college was a Web Development class</p>
-                <p className="wordsBackground">After some research, I enrolled in Lambda School and have loved it ever since. </p>
-             */}
-            </div>
+            {/* <div className="background2">
+                <p className="wordsBackground">When I am not coding, </p> 
+                <p className="wordsBackground"> </p> 
+                <p className="wordsBackground"></p>
+                <p className="wordsBackground"></p>
+                <p className="wordsBackground"></p>
+            
+            </div> */}
         </div>
         <Connect/>
         </div>

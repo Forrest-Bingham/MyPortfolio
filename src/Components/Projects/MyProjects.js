@@ -13,9 +13,8 @@ const MyProjects = () => {
 
     return (
         <div className="projectsMain">
-        <IconContext.Provider value={{ style: {color: "#00818a", height: "25px", width: "25px" }}}> 
-        <Navigation/>
-        <h4>This is my Projects page</h4>   
+        <IconContext.Provider value={{ style: {color: "#66fcf1", height: "25px", width: "25px" }}}> 
+        <Navigation/>  
         <div className="project">
             <div className="projectName">
                 <p className="name">Angel City Sports</p>
