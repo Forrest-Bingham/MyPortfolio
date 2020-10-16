@@ -1,5 +1,7 @@
 .mainAbout{
     width: 100%;
+    background-image: url("./images/trees.png");
+    background-size: contain;
 }
 
 .mainIntro{
@@ -14,7 +16,7 @@
     display:flex;
     justify-content: flex-start;
     padding: 0 0%;
-    padding-bottom: 1%;
+    padding-bottom: .5%;
 }
 .background{
     width:100%;
@@ -42,4 +44,7 @@
     justify-content: flex-start;
     margin: 0;
     
+}
+.ProfilePicture{
+    border-radius:50%;
 }

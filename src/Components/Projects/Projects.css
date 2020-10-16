@@ -1,11 +1,22 @@
+.projectsMain{
+    background-color: #c5c6c7;
+}
+
 .project{
     /* border-top: 5px solid #4abc76; */
-    border-bottom: 2px solid #00818a; 
-    width: 100%;
-    height: 80vh;
-    
+    border: 2px solid #c5c6c7; 
+    background-color: white;
+    width: 96%;
+    height: 74vh;
+    margin-top:2%;
+    margin-left: 2%;
+    margin-bottom:2%;
     display:flex;
-    
+    justify-content: center;
+    border-radius:25px; 
+    box-shadow: 5px 10px 15px black;
+    /* box-shadow: 5px 10px 15px #3fafd4; */
+    /* #3fafd4 */
 }
 .projectName{
     display:flex;

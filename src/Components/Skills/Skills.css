@@ -100,10 +100,11 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #dbedf3;
+    text-align: center;
+    background-color: #c5c6c7;
     
 }
 
 h3{
-    color: rgb(118, 74, 188);
+    color: #1f2833;
 }
