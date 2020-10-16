@@ -6,7 +6,6 @@ import Intro from "./Components/Intro/Intro";
 import Skills from "./Components/Skills/Skill"
 import AboutMe from "./Components/AboutMe/AboutMe";
 import MyProjects from "./Components/Projects/MyProjects";
-//import logo from './logo.svg';
 import './App.css';
 
 function App() {
