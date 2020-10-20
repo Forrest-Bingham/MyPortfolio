@@ -20,7 +20,7 @@ const AboutMe = () => {
             </div>  
             <div className="background">
                 <p className="wordsBackground">Full-stack web developer from Orem, Utah.</p>
-                <p className="wordsBackground">I recently graduated from Lambda School, which is a 9+ online Computer Science</p> 
+                <p className="wordsBackground">I recently graduated from Lambda School, which is a 9+ month online Computer Science</p> 
                 <p className="wordsBackground">and Software Engineering Academy providing an immersive hands-on</p> 
                 <p className="wordsBackground">curriculum with a focus on computer science, software engineering, and web development.</p>
                 
