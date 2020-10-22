@@ -103,7 +103,7 @@
     }
     .Name{
         width: 50%;
-        padding-top: 5%;
+        padding-top: 12%;
         font-size: 1.8rem;
     }
 
@@ -118,6 +118,20 @@
 }
 
 @media(max-width: 550px){
+    .IntroMain{
+        height: 42vh;
+    }
+    .Name{
+        font-size: 1.4rem;
+    }
+
+    .Title{
+        font-size: 1.4rem;
+
+    }
+}
+
+@media(max-width:490px){
     .IntroMain{
         height: 40vh;
     }
