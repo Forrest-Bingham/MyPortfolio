@@ -12,7 +12,6 @@
 }
 
 .title{
-    /* width: 100%; */
     display:flex;
     justify-content: flex-start;
     padding: 0 0%;
@@ -47,4 +46,18 @@
 }
 .ProfilePicture{
     border-radius:50%;
+}
+
+@media(max-width:800px){
+    .mainIntro{
+        height: 100vh;
+        padding: 2% 10% 0 10%    
+    }
+}
+
+@media(max-width:490px){
+    .mainIntro{
+        height: 110vh;
+        padding: 2% 10% 0 10%    
+    }
 }
