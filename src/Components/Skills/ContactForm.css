@@ -89,8 +89,6 @@
 
     .formSpace{
         height: 80vh;
-
-     
     }
 
     .form{
@@ -105,18 +103,10 @@
     .sendername{
         width: 60%;
         font-size: 1.6rem;
-        
-    }
-    .sendername:select{
-        border: #3fafd4;
     }
     .email{
         width: 60%;
-        margin-top: 4%;
         font-size: 1.6rem;
-        box-shadow: 5px 10px 15px #3fafd4;
-        border: none;
-        font-family: "Lucida Console", Courier, monospace;
     }
     
     .message{
@@ -141,3 +131,90 @@
       }
 
   }
+
+  @media(max-width: 650px){
+    .sendername{
+        width: 60%;
+        font-size: 1.6rem;
+    }
+    .email{
+        width: 60%;
+        font-size: 1.6rem;
+    }
+    
+    .message{
+        width: 60%;
+        padding-bottom: 20%;
+    }
+
+    #snackbar{
+        visibility: hidden;
+        min-width: 200px;
+        margin-left: -80px;
+        background-color:#3fafd4;
+        color: #fff;
+        text-align: center;
+        border-radius: 25px;
+        padding: 16px;
+        position: fixed;
+        z-index: 3;
+        left: 15%;
+        top: 30px;
+        font-size: .6rem;
+      }
+  }
+  @media(max-width: 550px){
+    .formSpace{
+        height:65vh;
+    }
+  
+    .sendername{
+        width: 60%;
+        font-size: 1.4rem;
+    }
+    .email{
+        width: 60%;
+        font-size: 1.4rem;
+    }
+    
+    .message{
+        width: 60%;
+        padding-bottom: 20%;
+        font-size: 1.4rem;
+    }
+}
+@media(max-width: 490px){
+    .formSpace{
+        height:65vh;
+    }
+  
+    .sendername{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .email{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    
+    .message{
+        width: 80%;
+        font-size: 1.2rem;
+        padding-bottom: 20%;
+    }
+    #snackbar{
+        visibility: hidden;
+        min-width: 200px;
+        margin-left: -68px;
+        background-color:#3fafd4;
+        color: #fff;
+        text-align: center;
+        border-radius: 25px;
+        padding: 16px;
+        position: fixed;
+        z-index: 3;
+        left: 15%;
+        top: 30px;
+        font-size: .5rem;
+      }
+}

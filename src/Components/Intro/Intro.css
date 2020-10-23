@@ -69,8 +69,8 @@
 
 @media(max-width: 800px){
     .IntroMain{
-        height: 50vh;
-        
+        height: 40vh;
+        width: 100%;
     }
     .IntroInfo{
         width: 100%;
@@ -99,13 +99,13 @@
 }
 @media(max-width: 650px){
     .IntroMain{
-        height: 50vh;
-        
+        height: 40vh;
+        width: 100%;
     }
     .IntroInfo{
         width: 100%;
         display:flex;
-        flex-direction: column;
+        
     }
     .Name{
         width: 50%;
@@ -114,8 +114,8 @@
     }
 
     .Title{
+        width:50%;
         font-size: 1.8rem;
-        margin-top: 15%;
     }
 
     .introButton{
@@ -125,7 +125,7 @@
 
 @media(max-width: 550px){
     .IntroMain{
-        height: 42vh;
+        height: 40vh;
     }
     .Name{
         font-size: 1.4rem;
@@ -139,7 +139,15 @@
 
 @media(max-width:490px){
     .IntroMain{
-        height: 40vh;
+        height: 33vh;
+    }
+    .Name{
+        font-size: 1.4rem;
+    }
+
+    .Title{
+        font-size: 1.4rem;
+
     }
 }
 
